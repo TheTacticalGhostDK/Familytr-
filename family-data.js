@@ -32,7 +32,7 @@
 const SETTINGS = {
   title: "Familien fra Skarrild",
   subtitle: "Klik på en person for at se mere om dem, hold nede for at trække rundt.",
-  rootId: "hans", // The tree starts here: the oldest person (and their spouse)
+  rootId: "peder", // The tree starts here: the oldest person (and their spouse)
 };
 
 // All the text in the interface. Translate these to Danish if you like.
@@ -51,17 +51,17 @@ const LABELS = {
 const PEOPLE = [
   // ── Generation 1 ──
   {
-    id: "hans",
-    name: "Hans Jensen",
+    id: "peder",
+    name: "Peder Knud Pedersen",
     born: 1938,
     died: 2015,
     photo: "photos/hans.jpg",
-    spouse: "inge",
+    spouse: "annemarie",
     bio: "Carpenter in Hillerød for over forty years. Spent every summer sailing, and never once admitted he was lost.",
   },
   {
-    id: "inge",
-    name: "Inge Jensen",
+    id: "annemarie",
+    name: "Anne-Marie Pedersen",
     born: 1941,
     photo: "photos/inge.jpg",
     bio: "Taught at the local school and still runs the garden like a small army. Known for her cardamom buns.",
@@ -72,7 +72,7 @@ const PEOPLE = [
     id: "lars",
     name: "Lars Jensen",
     born: 1964,
-    parents: ["hans", "inge"],
+    parents: ["peder", "annemarie"],
     spouse: "susanne",
     bio: "Works as an engineer and has opinions about every bridge in Denmark.",
   },
@@ -81,7 +81,7 @@ const PEOPLE = [
     id: "mette",
     name: "Mette Holm",
     born: 1967,
-    parents: ["hans", "inge"],
+    parents: ["peder", "annemarie"],
     spouse: "thomas",
   },
   { id: "thomas", name: "Thomas Holm", born: 1965 },
@@ -89,7 +89,7 @@ const PEOPLE = [
     id: "per",
     name: "Per Jensen",
     born: 1971,
-    parents: ["hans", "inge"],
+    parents: ["peder", "annemarie"],
     bio: "The family's traveller. Currently somewhere with better weather.",
   },
 
