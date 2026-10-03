@@ -52,7 +52,7 @@ const PEOPLE = [
   // ── Generation 1 ──
   {
     id: "peder",
-    name: "Peder Knud Pedersen",
+    name: "Peder Knudsen Pedersen",
     born: 1938,
     died: 2015,
     photo: "photos/hans.jpg",
