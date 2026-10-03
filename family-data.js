@@ -30,7 +30,7 @@
 //    bio      lille beskrivelse af personen (valgfrit). Hvis du ikke har en beskrivelse, kan du udelade feltet. Det vises i pop-up'en.
 
 const SETTINGS = {
-  title: "Familien Printz",
+  title: "Familien printz",
   subtitle: "Klik på en person for at se mere om dem, hold nede for at trække rundt.",
   rootId: "hans", // The tree starts here: the oldest person (and their spouse)
 };
